@@ -11,15 +11,46 @@ Where ./data/1.jpg refers to the example image in this repo and output is the de
 # Example response form the input image
 
 ```
-After analyzing the output, I can tell you that the document appears to be a **check** (also known as a cheque). Here's why:
+Based on the OCR output, the document appears to be a bank check. Here's a breakdown of the information it contains:
 
-1. **Check-related keywords**: The output contains keywords like "check", "cheque", "payable", "order", "pay", and "dollars", which are all related to a financial transaction.
-2. **Banking information**: The output includes labels like "bank", "account", "no", "usa", and "branches", suggesting that the document is related to a banking transaction.
-3. **Signature and authorization**: The presence of labels like "signature" and "authorized" implies that the document requires a signature to authorize the transaction.
-4. **Date and address**: The output includes labels like "date", "2019", "brooklyn", "ny", and "apt", which suggest that the document contains a date and address.
-5. **Security features**: The output mentions "watermark", "microprinting", and "colored paper", which are common security features used to prevent check counterfeiting.
-6. **Payee information**: The output includes labels like "mary", "gohnson", and "12345", which appear to be the payee's name and address.
+1. **Payee Information:**
+   - Name: Mary Johnson
+   - Address: 395 B5 Apt, Brooklyn, NY
+   - Date: 2019
 
-Based on these observations, I conclude that the document is a check, likely a personal check or a business check, containing the usual information such as the date, payee's name and address, payment amount, and authorization signature.
+2. **Bank Details:**
+   - Bank: USA Bank (with multiple branches)
+   - Account Number: 001234567
+   - Check Number: 0007
+
+3. **Check Details:**
+   - Type: Rent (monthly)
+   - Amount: $100 and seventy-five dollars (likely a typo, should be $175)
+   - Memo: J. Smith
+   - Order/Payee: Mary Johnson
+   - Check Number: 715
+
+4. **Security Features:**
+   - The check contains a watermark, microprinting, and colored security threads, as stated in the fine print at the bottom.
+
+5. **Signature and Authorization:**
+   - The check is signed and authorized.
+
+6. **Potential Errors or Inconsistencies:**
+   - The amount mentioned in the OCR output seems to have a mistake. It mentions "seven lifteen" which should likely be "seventy-five".
+   - Some words like "lorem", "amet", "sit", "dolor" appear to be placeholders or random words that might have been misinterpreted by the OCR.
+
+Here's a cleaned-up version of the check details:
+
+- Pay to the order of: Mary Johnson
+- Amount: $100.75
+- For: Rent (monthly)
+- Memo: J. Smith
+- Date: 2019
+- Check Number: 715
+- Bank: USA Bank
+- Account Number: 001234567
+- Check Number: 0007None
+
 
 ```
