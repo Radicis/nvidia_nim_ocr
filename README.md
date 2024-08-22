@@ -10,6 +10,8 @@ Where ./data/1.jpg refers to the example image in this repo and output is the de
 
 # Example response from the input image
 
+![input](https://github.com/Radicis/nvidia_nim_ocr/blob/main/data/1.jpg?raw=true)
+
 ```
 Based on the OCR output, the document appears to be a bank check. Here's a breakdown of the information it contains:
 
