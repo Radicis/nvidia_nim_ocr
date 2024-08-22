@@ -74,7 +74,17 @@ pip install openai
 pip install requests
 ```
 
-Navigate to the dirctory where the python file is stored then type the following command
+Navigate to the dirctory where the python file is stored
+
+Edit the main.py file to update the api with with your one on line 14
+
+```python
+API_KEY="KEY_HERE"
+
+Change to replace KEY_HERE with the key you have from Nvidia NIM build console
+```
+
+Then save the file and enter the following command in your terminal.
 
 ```
 python main.py ./data/1.jpg output
