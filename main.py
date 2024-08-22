@@ -28,7 +28,7 @@ def _respond(content):
     prompt = f"As a financial advisor, analyse the OCR output below and tell me what the document contains.\n{content['metadata']}"
 
     completion = client.chat.completions.create(
-        model="meta/llama-3.1-405b-instruct",
+        model="nv-mistralai/mistral-nemo-12b-instruct",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.2,
         top_p=0.7,
