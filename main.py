@@ -11,7 +11,7 @@ import requests
 nvai_url="https://ai.api.nvidia.com/v1/cv/nvidia/ocdrnet"
 
 
-API_KEY="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"
+API_KEY="nvapi-KEY_HERe"
 
 header_auth = f"Bearer {API_KEY}"
 
