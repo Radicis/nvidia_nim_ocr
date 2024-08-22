@@ -54,3 +54,28 @@ Here's a cleaned-up version of the check details:
 
 
 ```
+
+# Running the Script on Windows
+
+## Prerequisites 
+
+* Install Pythopn 3.X on the host machine -> https://www.python.org/downloads/
+* Python PIP (this should be installed automatically with python but in case you have issues) -> https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line
+* An NVidia NIM api key from the console -> https://build.nvidia.com/nvidia/
+
+# Commands
+
+Install the required libraries using `pip` by typing the following commands:
+
+```
+# Ensure latest versions of tools
+py -m pip install --upgrade pip setuptools wheel
+pip install openai
+pip install requests
+```
+
+Navigate to the dirctory where the python file is stored then type the following command
+
+```
+python main.py ./data/1.jpg output
+```
