@@ -81,7 +81,7 @@ Edit the main.py file to update the api with with your one on line 14
 ```python
 API_KEY="KEY_HERE"
 
-Change to replace KEY_HERE with the key you have from Nvidia NIM build console
+# Change to replace KEY_HERE with the key you have from Nvidia NIM build console
 ```
 
 Then save the file and enter the following command in your terminal.
