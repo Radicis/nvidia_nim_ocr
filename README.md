@@ -59,7 +59,7 @@ Here's a cleaned-up version of the check details:
 
 ## Prerequisites 
 
-* Install Pythopn 3.X on the host machine -> https://www.python.org/downloads/
+* Install Python 3.X on the host machine -> https://www.python.org/downloads/
 * Python PIP (this should be installed automatically with python but in case you have issues) -> https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line
 * An NVidia NIM api key from the console -> https://build.nvidia.com/nvidia/
 
